@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: orange;
+}
+
+p{
+    color:orange;
+}
+body{
+    background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fbeauty-in-nature&psig=AOvVaw0XgIg4MXTGt_r9Y9VwRiUj&ust=1730758371434000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKj6ycKXwYkDFQAAAAAdAAAAABAE");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table,tr,td,thead,th{
+    border:2px solid blue;
+    font-size:30px;
+    color:green;
+    background:blue;
+    margin: auto;
+    background: red;
+
+}

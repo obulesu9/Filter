@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>upper</title>
+        <link rel="stylesheet" href="{% static 'css/filter.css' % }">
+    </head>
+    <body>
+
+        <h1> this is filter model Project</h1>
+        {% for r in data_list %}
+        <ul>
+            <li>{{r.name|lower}}</li>
+            <li>{{r.suject|lower}}</li>
+            <li>{{r.dept|lower}}</li>
+            <li>{{r.date|lower}}</li>
+        </ul><hr>
+        {% endfor %}
+    </body>
+</html>
